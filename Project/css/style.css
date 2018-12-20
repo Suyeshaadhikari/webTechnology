@@ -1,0 +1,54 @@
+img {
+	float: right;
+}
+#wrapper {
+	width: 100%;
+	height: 980px;
+	margin: 0px auto;
+	border: 1px solid #f00
+}
+.using_css {
+	width: 980px;
+	border: 1px solid black
+}
+.header {
+	height: 80px;
+	margin: 5px 5px 5px 5px;
+	border: 1px solid black
+}
+.content {
+	height: 350px;
+	margin: 20px 5px 5px 5px;
+	border: 1px solid black
+}
+.footer {
+	height: 100px;
+	margin: 20px 5px 5px 5px;
+	border: 1px solid black
+}
+.content_left {
+	display: inline-block;
+	border: 1px solid black;
+	width: 48%;
+	height: 340px;
+	margin: 5px 5px 5px 5px;
+}
+.content_right {
+	float: right;
+	display: inline-block;
+	border: 1px solid black;
+	height: 340px;
+	width: 48%;
+	margin: 5px 5px 5px 5px;
+}
+div p {
+	font-family: cursive;
+	font-style: italic;
+	color: red;
+}
+div:hover {
+	background-color: black;
+}
+p::first-letter {
+	color : blue		;
+}
